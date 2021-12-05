@@ -19,8 +19,8 @@
         "singleQuote": true,
         "parser": "flow"
       }
-    ],
+    ]
     // "singleQuote": true,
-    "no-console": "warn"
+    // "no-console": "warn"
   }
 }

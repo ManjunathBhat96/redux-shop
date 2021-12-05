@@ -11,9 +11,13 @@ function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" exact element={ProductListing} />
-          <Route path="/product/:productId" exact element={ProductDetails} />
-          <Route path="/" exact element={ProductComponent} />
+          <Route path="/" element={<ProductListing />} />
+          <Route
+            path="/product/:productId"
+            exact
+            element={<ProductDetails />}
+          />
+          {/* <Route path="/products" exact element={<ProductComponent />} /> */}
         </Routes>
       </Router>
     </div>

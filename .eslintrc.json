@@ -20,6 +20,7 @@
         "parser": "flow"
       }
     ]
+    // "no-unused-vars": [2, {"vars": "all", "args": "after-used"}]
     // "singleQuote": true,
     // "no-console": "warn"
   }

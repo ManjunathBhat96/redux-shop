@@ -33,6 +33,7 @@ function ProductListing() {
             price={item.price}
             category={item.category}
             image={item.image}
+            id={item.id}
           />
         );
 
